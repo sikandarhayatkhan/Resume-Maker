@@ -1,0 +1,276 @@
+doctype html
+head
+  meta(charset='utf-8')
+  meta(name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no')
+  meta(http-equiv='x-ua-compatible' content='ie=edge')
+  title Resume Example
+  // Font Awesome
+  link(rel='stylesheet' href='https://use.fontawesome.com/releases/v5.8.2/css/all.css')
+  // Bootstrap core CSS
+  // Font Awesome
+  link(rel='stylesheet' href='https://use.fontawesome.com/releases/v5.8.2/css/all.css')
+  // Bootstrap core CSS
+  link(href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css' rel='stylesheet')
+  // Material Design Bootstrap
+  link(href='https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.7/css/mdb.min.css' rel='stylesheet')
+  link(rel='stylesheet' href='https://use.fontawesome.com/releases/v5.8.2/css/all.css')
+  // Bootstrap core CSS
+  link(href='css/bootstrap.min.css' rel='stylesheet')
+  // Material Design Bootstrap
+  link(href='css/mdb.min.css' rel='stylesheet')
+  // Your custom styles (optional)
+  link(href='css/style.min.css' rel='stylesheet')
+  // JQuery
+  script(type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js')
+  // Bootstrap tooltips
+  script(type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js')
+  // Bootstrap core JavaScript
+  script(type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js')
+  // MDB core JavaScript
+  script(type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.7/js/mdb.min.js')
+  style(type='text/css').
+    html,
+    body,
+    header,
+    .view {
+    height: 100%;
+    }
+    @media (max-width: 740px) {
+    html,
+    body,
+    header,
+    .view {
+    height: 1000px;
+    }
+    }
+    @media (min-width: 800px) and (max-width: 850px) {
+    html,
+    body,
+    header,
+    .view {
+    height: 650px;
+    }
+    }
+    @media (min-width: 800px) and (max-width: 850px) {
+    .navbar:not(.top-nav-collapse) {
+    background: #1C2331!important;
+    }
+    }
+    .map-container{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    }
+    .map-container iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    }
+    html{
+    scroll-behavior: smooth;
+    }
+// Navbar
+nav.navbar.navbar-expand-lg.scrolling-navbar
+  .container
+    // Brand
+    a.navbar-brand(href='/')
+      strong resume.io
+    // Collapse
+    button.navbar-toggler(type='button' data-toggle='collapse' data-target='#navbarSupportedContent' aria-controls='navbarSupportedContent' aria-expanded='false' aria-label='Toggle navigation')
+      span.navbar-toggler-icon
+    // Links
+    #navbarSupportedContent.collapse.navbar-collapse
+      // Left
+      ul.navbar-nav.mr-auto
+        li.nav-item.active
+          a.nav-link(href='/template')
+            | Templates
+            span.sr-only (current)
+        li.nav-item
+          a.nav-link(href='/resumeexample') Examples
+        li.nav-item
+          a.nav-link(href='#' target='_blank') Guides
+        li.nav-item
+          a.nav-link(href='#' target='_blank') Job Search
+        li.nav-item
+          a.nav-link(href='#' target='_blank') FAQ
+      // Right
+      ul.navbar-nav.nav-flex-icons
+        li.nav-item
+          a.nav-link.rounded(href='#' target='_blank')
+            | Login
+        li.nav-item
+          // <button class="btn btn-outline-white btn-md my-2 my-sm-0 ml-3" type="submit">Search</button>
+          a.nav-link.border.border-light.rounded(href='#' target='_blank')
+            | SignUp
+// Navbar
+hr.hr-light
+.card(style=' width: fit-content; box-shadow: none')
+  .card-body
+    // First row
+    .row.features-small.mb-10.mt-2.wow.fadeIn
+      .col-md-3.flex-center
+        // Card
+      // /first column
+      // first column
+      .col-md-6.flex-center
+        // Card
+        .card(style='box-shadow: none')
+          // Card content
+          .card-body
+            h2.my-4.h1(style='text-align:center; color:rgb(30, 134, 219); font-size: 35pt')
+              b Resume Examples
+            .row
+              .col-12
+              .col-12
+                p.grey-text(style='text-align:center;')
+                  | Check out our free resume samples for inspiration. Use these examples and our resume builder to create a beautiful resume in minutes.
+                .input-group.md-form.form-sm.form-1.pl-0
+                  .input-group-prepend
+                    span#basic-text1.input-group-text.cyan.lighten-2
+                      i.fas.fa-search.text-white(aria-hidden='true')
+                  input.form-control.my-0.py-1(type='text' placeholder='Search' aria-label='Search')
+        // /.Card
+      // /first column
+      .card(style='box-shadow: none')
+        .card-body
+          // Grid row
+          .row.wow.fadeIn
+            // Grid column
+            .col-md-4.mb-4
+              // Card
+              .card
+                // Card content
+                .card-body
+                  .col-12
+                    .view.overlay.zoom
+                      img.img-fluid(src='images/22.jpg' alt='zoom')
+                      .mask.flex-center.waves-effect.waves-light
+                    hr.hr-light
+              // /.Card
+            // Grid column
+            // Grid column
+            .col-md-4.mb-4
+              // Card
+              .card
+                // Card content
+                .card-body
+                  .col-12
+                    .view.overlay.zoom
+                      img.img-fluid(src='images/22.jpg' alt='zoom')
+                      .mask.flex-center.waves-effect.waves-light
+                    hr.hr-light
+              // /.Card
+            // Grid column
+            // Grid column
+            .col-md-4.mb-4
+              // Card
+              .card
+                // Card content
+                .card-body
+                  .col-12
+                    .view.overlay.zoom
+                      img.img-fluid(src='images/22.jpg' alt='zoom')
+                      .mask.flex-center.waves-effect.waves-light
+                    hr.hr-light
+              // /.Card
+            // Grid column
+hr.hr-light(style='width: 100px')
+.row.features-small.mb-10.mt-2.wow.fadeIn
+  .col-md-2
+  .col-md-8
+    p.grey-text(style='text-align:center;')
+      | Great job opportunities require great resumes. Our resume examples include phrases, keywords, and formats that are specific to your industry or role. Use our examples for inspiration or use the parts of the examples that work for you.
+  .col-md-2
+hr.hr-light(style='width: 100px')
+// Footer
+footer.page-footer.font-small.unique-color-dark
+  div(style='background-color: #6351ce;')
+    .container
+      // Grid row
+      .row.py-4.d-flex.align-items-center
+        // Grid column
+        .col-md-6.col-lg-5.text-center.text-md-left.mb-4.mb-md-0
+          h6.mb-0 Get connected with us on social networks!
+        // Grid column
+        // Grid column
+        .col-md-6.col-lg-7.text-center.text-md-right
+          // Facebook
+          a.fb-ic
+            i.fab.fa-facebook-f.white-text.mr-4  
+          // Twitter
+          a.tw-ic
+            i.fab.fa-twitter.white-text.mr-4  
+          // Google +
+          a.gplus-ic
+            i.fab.fa-google-plus-g.white-text.mr-4  
+          // Linkedin
+          a.li-ic
+            i.fab.fa-linkedin-in.white-text.mr-4  
+          // Instagram
+          a.ins-ic
+            i.fab.fa-instagram.white-text  
+        // Grid column
+      // Grid row
+  // Footer Links
+  .container.text-center.text-md-left.mt-5
+    // Grid row
+    .row.mt-3
+      // Grid column
+      .col-md-3.col-lg-4.col-xl-3.mx-auto.mb-4
+        // Content
+        h6.text-uppercase.font-weight-bold Resume.io
+        hr.deep-purple.accent-2.mb-4.mt-0.d-inline-block.mx-auto(style='width: 60px;')
+        p
+          | Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
+          | consectetur
+          | adipisicing elit.
+      // Grid column
+      // Grid column
+      <!--         .col-md-2.col-lg-2.col-xl-2.mx-auto.mb-4 -->
+        // Links
+        
+      // Grid column
+      // Grid column
+      .col-md-3.col-lg-2.col-xl-2.mx-auto.mb-4
+        // Links
+        h6.text-uppercase.font-weight-bold Useful links
+        hr.deep-purple.accent-2.mb-4.mt-0.d-inline-block.mx-auto(style='width: 60px;')
+        p
+          a(href='/template') Templates
+        p
+          a(href='/resumeexample') Examples
+        p
+          a(href='#!') FAQ's
+        p
+          a(href='#!') Help
+      // Grid column
+      // Grid column
+      .col-md-4.col-lg-3.col-xl-3.mx-auto.mb-md-0.mb-4
+        // Links
+        h6.text-uppercase.font-weight-bold Contact
+        hr.deep-purple.accent-2.mb-4.mt-0.d-inline-block.mx-auto(style='width: 60px;')
+        p
+          i.fas.fa-home.mr-3
+          |  New York, NY 10012, US
+        p
+          i.fas.fa-envelope.mr-3
+          |  info@example.com
+        p
+          i.fas.fa-phone.mr-3
+          |  + 01 234 567 88
+        p
+          i.fas.fa-print.mr-3
+          |  + 01 234 567 89
+      // Grid column
+    // Grid row
+  // Footer Links
+  // Copyright
+  .footer-copyright.text-center.py-3
+    | &copy; 2018 Copyright:
+    a(href='http://www.artisansofttech.com/')  ArtisanSoftTech
+  // Copyright
+// Footer

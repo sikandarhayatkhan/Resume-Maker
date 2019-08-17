@@ -1,0 +1,160 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+    meta(http-equiv='x-ua-compatible', content='ie=edge')
+    title CV DATA
+    // Font Awesome
+    link(rel='stylesheet', href='https://use.fontawesome.com/releases/v5.8.2/css/all.css')
+    // Bootstrap core CSS
+    link(href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css', rel='stylesheet')
+    // Material Design Bootstrap
+    link(href='https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.7/css/mdb.min.css', rel='stylesheet')
+    // JQuery
+    script(type='text/javascript', src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js')
+    // Bootstrap tooltips
+    script(type='text/javascript', src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js')
+    // Bootstrap core JavaScript
+    script(type='text/javascript', src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js')
+    // MDB core JavaScript
+    script(type='text/javascript', src='https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.7/js/mdb.min.js')
+    style(type='text/css').
+      html,
+      body,
+      header,
+      .view {
+      height: 100%;
+      }
+      @media (max-width: 740px) {
+      html,
+      body,
+      header,
+      .view {
+      height: 1000px;
+      }
+      }
+      @media (min-width: 800px) and (max-width: 850px) {
+      html,
+      body,
+      header,
+      .view {
+      height: 650px;
+      }
+      }
+      @media (min-width: 800px) and (max-width: 850px) {
+      .navbar:not(.top-nav-collapse) {
+      background: #1C2331!important;
+      }
+      }
+  body
+    // Card group
+    .card-group
+      .row
+        // Card
+        .col-md-3
+          // Card image
+          // Card content
+          .card-body
+            // Title
+            h4.card-title Image
+            // Text
+            // Card content
+            // Card
+            // Card
+            .col-md-9
+              // Card content
+              .card-body
+                // Title
+                h4.card-title Name
+                each obj in CVdata
+                    tr
+                        td #{obj.name}
+                // Text
+                // Provides extra visual weight and identifies the primary action in a set of buttons
+                // Card content
+                // Card
+                // Card
+                // Card group
+                .card-group
+                  .row
+                    // Card
+                    .col-lg-6
+                      // Card image
+                      // Card content
+                      .card-body
+                        // Title
+                        h4.card-title Personal_Info
+                        each obj in CVdata
+                            tr
+                                td #{obj.personal_info}
+                        // Text
+                        // Card content
+                        // Card
+                        // Card
+                        .col-lg-6
+                          // Card content
+                          .card-body
+                            // Title
+                            h4.card-title Experience
+                            each obj in CVdata
+                                tr
+                                    td #{obj.experience}
+                            // Text
+                            // Provides extra visual weight and identifies the primary action in a set of buttons
+                            // Card content
+                            // Card
+                            // Card
+                .card-group
+                  .row
+                    // Card
+                    .col-md-3
+                      // Card image
+                      // Card content
+                      .card-body
+                        // Title
+                        h4.card-title Education
+                        each obj in CVdata
+                          tr
+                            td #{obj.education}
+                        // Text
+                        // Card content
+                        // Card
+                        // Card
+                        .col-md-9
+                          // Card content
+                          .card-body
+                            // Title
+                            h4.card-title Skill
+                            each obj in CVdata
+                                tr
+                                    td #{obj.skill}
+                            // Text
+                            // Provides extra visual weight and identifies the primary action in a set of buttons
+                            // Card content
+                            // Card
+                            // Card
+
+//- doctype html
+//- html(lang='en')
+//-   head
+//-     title CV DATA
+//-     script(type='text/javascript').
+//-   body
+//-     table
+//-       thead
+//-         tr
+//-           th   Name 
+//-           th   Personal Information 
+//-           th   Experience 
+//-           th   Education 
+//-           th   Skill 
+//-       tbody
+//-       - var n = 1;
+//-       each obj in CVdata
+//-         tr
+//-           td #{obj.name}
+//-           td #{obj.personal_info}
+//-           td #{obj.experience}
+//-           td #{obj.education}
+//-           td #{obj.skill}

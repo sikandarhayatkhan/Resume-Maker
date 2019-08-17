@@ -1,0 +1,457 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+    meta(http-equiv='x-ua-compatible', content='ie=edge')
+    title Portfolio
+    // Font Awesome
+    link(rel='stylesheet', href='https://use.fontawesome.com/releases/v5.8.2/css/all.css')
+    // Bootstrap core CSS
+    // Font Awesome
+    link(rel='stylesheet', href='https://use.fontawesome.com/releases/v5.8.2/css/all.css')
+    // Bootstrap core CSS
+    link(href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css', rel='stylesheet')
+    // Material Design Bootstrap
+    link(href='https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.7/css/mdb.min.css', rel='stylesheet')
+    link(rel='stylesheet', href='https://use.fontawesome.com/releases/v5.8.2/css/all.css')
+    // Bootstrap core CSS
+    link(href='css/bootstrap.min.css', rel='stylesheet')
+    // Material Design Bootstrap
+    link(href='css/mdb.min.css', rel='stylesheet')
+    // Your custom styles (optional)
+    link(href='css/style.min.css', rel='stylesheet')
+    // JQuery
+    script(type='text/javascript', src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js')
+    // Bootstrap tooltips
+    script(type='text/javascript', src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js')
+    // Bootstrap core JavaScript
+    script(type='text/javascript', src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js')
+    // MDB core JavaScript
+    script(type='text/javascript', src='https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.7/js/mdb.min.js')
+    style(type='text/css').
+      html,
+      body,
+      header,
+      .view {
+      height: 100%;
+      }
+      @media (max-width: 740px) {
+      html,
+      body,
+      header,
+      .view {
+      height: 1000px;
+      }
+      }
+      @media (min-width: 800px) and (max-width: 850px) {
+      html,
+      body,
+      header,
+      .view {
+      height: 650px;
+      }
+      }
+      @media (min-width: 800px) and (max-width: 850px) {
+      .navbar:not(.top-nav-collapse) {
+      background: #1C2331!important;
+      }
+      }
+      .map-container{
+      overflow:hidden;
+      padding-bottom:56.25%;
+      position:relative;
+      height:0;
+      }
+      .map-container iframe{
+      left:0;
+      top:0;
+      height:100%;
+      width:100%;
+      position:absolute;
+      }
+      html{
+      scroll-behavior: smooth;
+      }
+  body
+    // Navbar
+    nav.navbar.navbar-expand-lg.scrolling-navbar
+      .container
+        // Brand
+        a.navbar-brand(href='#', target='_blank')
+          strong resume.io
+        // Collapse
+        button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarSupportedContent', aria-controls='navbarSupportedContent', aria-expanded='false', aria-label='Toggle navigation')
+          span.navbar-toggler-icon
+        // Links
+        #navbarSupportedContent.collapse.navbar-collapse
+          // Left
+          ul.navbar-nav.mr-auto
+            li.nav-item.active
+              a.nav-link(href='#')
+                | Templates
+                span.sr-only (current)
+            li.nav-item
+              a.nav-link(href='#', target='_blank') Examples
+            li.nav-item
+              a.nav-link(href='#', target='_blank') Guides
+            li.nav-item
+              a.nav-link(href='#', target='_blank') Job Search
+            li.nav-item
+              a.nav-link(href='#', target='_blank') FAQ
+          // Right
+          ul.navbar-nav.nav-flex-icons
+            li.nav-item
+              a.nav-link.rounded(href='#', target='_blank')
+                | Login
+            li.nav-item
+              // <button class="btn btn-outline-white btn-md my-2 my-sm-0 ml-3" type="submit">Search</button>
+              a.nav-link.border.border-light.rounded(href='#', target='_blank')
+                | SignUp
+    // Navbar
+    .card(style='height: inherit;')
+      .card-body
+        // First row
+        .row.features-small.mb-10.mt-2.wow.fadeIn
+          .col-md-3.flex-center
+            // Card
+            // /first column
+            // first column
+            .col-md-6.flex-center
+              // Card
+              .card(style='box-shadow: none')
+                // Card content
+                .card-body
+                  h2.my-4.h1(style='text-align:center; color:rgb(30, 134, 219); font-size: 35pt')
+                    b Only 2% of CVs make it past the first round. Be in the top 2%
+                  .row
+                    .col-12
+                    .col-12
+                      p.grey-text(style='text-align:center;')
+                        | Use professional field-tested resume templates that follow the exact ‘resume rules’ employers look for. Easy to use & done within minutes - try now for free!
+                      div
+                        .text-center
+                          button.btn.btn-indigo Build Your Resume
+                          hr.hr-light
+                        .text-center
+                          img(src='dot.gif_c200', style='width: 10px; height:10px;')
+                          | resumes created today
+              // /.Card
+              // /first column
+              .col-md-3.flex-center
+                // Card
+                // /first column
+                // /First row
+                // First row
+                .row.features-small.mb-10.mt-2.wow.fadeIn
+                  .col-md-3.flex-center
+                    // Card
+                    // /first column
+                    // first column
+                    .col-md-6.flex-center
+                      // Card
+                      .card(class='> <!--Card content--> <div class=', card-body"='')
+                        .view.overlay.zoom
+                          img.img-fluid(src='22.jpg', alt='zoom')
+                          .mask.flex-center.waves-effect.waves-light
+                        .row
+                          .col-12
+                          .col-12
+                            div
+                // /.Card
+                // Main layout
+                .card(style='box-shadow: none')
+                  .card-body
+                    // Section: More
+                    section
+                      h2.my-5.h3.text-center Build your job-winning resume in three simple steps
+                      // First row
+                      .row.features-small.mt-5.wow.fadeIn
+                        .col-xl-2.col-lg-6
+                        // Grid column
+                        .col-xl-3.col-lg-6
+                          // Grid row
+                          .row
+                            .col-2
+                              i.fab.fa-firefox.fa-2x.mb-1.indigo-text(aria-hidden='true')
+                            .col-10.mb-2.pl-3
+                              p.grey-text.mt-2 Choose one of our professionally designed resumes
+                          // /Grid row
+                          // /Grid column
+                          // Grid column
+                          .col-xl-3.col-lg-6
+                            // Grid row
+                            .row
+                              .col-2
+                                i.fas.fa-level-up-alt.fa-2x.mb-1.indigo-text(aria-hidden='true')
+                              .col-10.mb-2
+                                p.grey-text.mt-2 Fill in your details using our simple prompts
+                            // /Grid row
+                            // /Grid column
+                            // Grid column
+                            .col-xl-3.col-lg-6
+                              // Grid row
+                              .row
+                                .col-2
+                                  i.fas.fa-comments.fa-2x.mb-1.indigo-text(aria-hidden='true')
+                                .col-10.mb-2
+                                  p.grey-text.mt-2 Download & start applying for jobs today!
+                              // /Grid row
+                              // /Grid column
+                              .col-xl-1.col-lg-6
+                      // /Second row
+                      // Section: More
+                .card(style='box-shadow: none')
+                  .card-body
+                    // Section: More
+                    section
+                      h2.my-5.h3.text-center Effortlessly build a job-worthy resume that gets you hired faster
+                      // First row
+                      .row.features-small.mt-5.wow.fadeIn
+                        // Grid column
+                        .col-xl-3.col-lg-6
+                          // Grid row
+                          .row
+                            .col-2
+                              i.fab.fa-firefox.fa-2x.mb-1.indigo-text(aria-hidden='true')
+                            .col-10.mb-2.pl-3
+                              h5.feature-title.font-bold.mb-1 Quick & easy
+                              p.grey-text.mt-2
+                                | Save time with our easy 3-step resume builder. No more writer’s block or formatting difficulties in Word. Rapidly build a resume employers love.
+                          // /Grid row
+                          // /Grid column
+                          // Grid column
+                          .col-xl-3.col-lg-6
+                            // Grid row
+                            .row
+                              .col-2
+                                i.fas.fa-level-up-alt.fa-2x.mb-1.indigo-text(aria-hidden='true')
+                              .col-10.mb-2
+                                h5.feature-title.font-bold.mb-1 Demand attention
+                                p.grey-text.mt-2
+                                  | Stand out from the herd of job applicants with one of our 6 professionally-designed resume templates. Get noticed; get hired.
+                            // /Grid row
+                            // /Grid column
+                            // Grid column
+                            .col-xl-3.col-lg-6
+                              // Grid row
+                              .row
+                                .col-2
+                                  i.fas.fa-comments.fa-2x.mb-1.indigo-text(aria-hidden='true')
+                                .col-10.mb-2
+                                  h5.feature-title.font-bold.mb-1 Stay organized
+                                  p.grey-text.mt-2 Keep job hunting simple with all your resumes managed in one place.
+                              // /Grid row
+                              // /Grid column
+                              .col-xl-3.col-lg-6
+                                // Grid row
+                                .row
+                                  .col-2
+                                    i.fas.fa-comments.fa-2x.mb-1.indigo-text(aria-hidden='true')
+                                  .col-10.mb-2
+                                    h5.feature-title.font-bold.mb-1 Job-winning content
+                                    p.grey-text.mt-2
+                                      | We give you expert resume writing tips from start to finish. No more worrying about missing jobs or wasting time with the wrong resume content.
+                                // /Grid row
+                                // /Grid column
+                                // /Second row
+                                .text-center
+                                  button.btn.btn-indigo Build Your Resume
+                    // Section: More
+                    // Section: Testimonials v.1
+                    section.text-center.my-5.p-6
+                      // Section heading
+                      h2.h1-responsive.font-weight-bold.my-5 These people got hired using our resume builder
+                      // Grid row
+                      .row
+                        // Grid column
+                        .col-lg-4.col-md-12.mb-lg-0.mb-4
+                          // Card
+                          .card.testimonial-card
+                            // Background color
+                            .card-up.info-color
+                            // Avatar
+                            .avatar.mx-auto.white
+                              img.rounded-circle.img-fluid(src='https://mdbootstrap.com/img/Photos/Avatars/img%20(9).jpg')
+                            .card-body
+                              // Name
+                              h4.font-weight-bold.mb-4 John Doe
+                              hr
+                              // Quotation
+                              p.dark-grey-text.mt-4
+                                i.fas.fa-quote-left.pr-2
+                                | "I wrote my first resume about 4 years ago, I got hired right away. Changing careers meant a new updated resume. The sales resume helped me land my new job.
+                          // Card
+                          // Grid column
+                          // Grid column
+                          .col-lg-4.col-md-6.mb-md-0.mb-4
+                            // Card
+                            .card.testimonial-card
+                              // Background color
+                              .card-up.blue-gradient
+                              // Avatar
+                              .avatar.mx-auto.white
+                                img.rounded-circle.img-fluid(src='https://mdbootstrap.com/img/Photos/Avatars/img%20(20).jpg')
+                              .card-body
+                                // Name
+                                h4.font-weight-bold.mb-4 Anna Aston
+                                hr
+                                // Quotation
+                                p.dark-grey-text.mt-4
+                                  i.fas.fa-quote-left.pr-2
+                                  | "Applying for jobs takes a lot of time. Resume.io helps me manage my resume and create new ones for specific job applications. It has saved me a lot time! Thank you!"
+                            // Card
+                            // Grid column
+                            // Grid column
+                            .col-lg-4.col-md-6
+                              // Card
+                              .card.testimonial-card
+                                // Background color
+                                .card-up.indigo
+                                // Avatar
+                                .avatar.mx-auto.white
+                                  img.rounded-circle.img-fluid(src='https://mdbootstrap.com/img/Photos/Avatars/img%20(10).jpg')
+                                .card-body
+                                  // Name
+                                  h4.font-weight-bold.mb-4 Maria Kate
+                                  hr
+                                  // Quotation
+                                  p.dark-grey-text.mt-4
+                                    i.fas.fa-quote-left.pr-2
+                                    | "I have never had a resume. In fact, I was clueless about how to even build a resume. The easy process here helped me get a resume without hassle. It has saved me a lot time! Thank you!""
+                              // Card
+                              // Grid column
+                              // Grid row
+                              // Section: Testimonials v.1
+                              hr.light(style='width: 50px')
+                              .row
+                              p.dark-grey-text.w-responsive.mx-auto.mb-5
+                                | Testimonials found on Resume.io have been sent to us by Resume.io or CVster.nl customers and may not reflect the typical purchaser’s experience and are not intended to represent or guarantee that anyone will achieve the same or similar results.
+                    hr.light(style='width: 50px')
+                    .card(style='box-shadow: none')
+                      .card-body
+                        // Section:
+                        section
+                          // First row
+                          .row.features-small.mt-5.wow.fadeIn
+                            .col-xl-2.col-lg-6
+                            // Grid column
+                            .col-xl-3.col-lg-6
+                              // Grid row
+                              .row
+                                .col-12.mb-2.pl-3
+                                  h2.my-4.h1(style='text-align:center; color:rgb(30, 134, 219); font-size: 20pt')
+                                    b 4,044,015
+                                  p(style='text-align:center') Resumes built
+                              // /Grid row
+                              // /Grid column
+                              // Grid column
+                              .col-xl-3.col-lg-6
+                                // Grid row
+                                .col-12.mb-2
+                                  h2.my-4.h1(style='text-align:center; color:rgb(30, 134, 219); font-size: 20pt')
+                                    b
+                                      | 11,982
+                                  p(style='text-align:center')
+                                    | Signups today
+                              // /Grid row
+                              // Grid column
+                              .col-xl-3.col-lg-6
+                                // Grid row
+                                .col-12.mb-2
+                                  h2.my-4.h1(style='text-align:center; color:rgb(30, 134, 219); font-size: 20pt')
+                                    b
+                                      | 12,389
+                                  p(style='text-align:center') Questions answered
+                              // /Grid row
+                              // Grid column
+                              // Section: More
+                    hr.light(style='width: 50px')
+                    // Footer
+footer.page-footer.font-small.unique-color-dark
+  div(style='background-color: #6351ce;')
+    .container
+      // Grid row
+      .row.py-4.d-flex.align-items-center
+        // Grid column
+        .col-md-6.col-lg-5.text-center.text-md-left.mb-4.mb-md-0
+          h6.mb-0 Get connected with us on social networks!
+        // Grid column
+        // Grid column
+        .col-md-6.col-lg-7.text-center.text-md-right
+          // Facebook
+          a.fb-ic
+            i.fab.fa-facebook-f.white-text.mr-4  
+          // Twitter
+          a.tw-ic
+            i.fab.fa-twitter.white-text.mr-4  
+          // Google +
+          a.gplus-ic
+            i.fab.fa-google-plus-g.white-text.mr-4  
+          // Linkedin
+          a.li-ic
+            i.fab.fa-linkedin-in.white-text.mr-4  
+          // Instagram
+          a.ins-ic
+            i.fab.fa-instagram.white-text  
+        // Grid column
+      // Grid row
+  // Footer Links
+  .container.text-center.text-md-left.mt-5
+    // Grid row
+    .row.mt-3
+      // Grid column
+      .col-md-3.col-lg-4.col-xl-3.mx-auto.mb-4
+        // Content
+        h6.text-uppercase.font-weight-bold Resume.io
+        hr.deep-purple.accent-2.mb-4.mt-0.d-inline-block.mx-auto(style='width: 60px;')
+        p
+          | Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
+          | consectetur
+          | adipisicing elit.
+      // Grid column
+      // Grid column
+      <!--         .col-md-2.col-lg-2.col-xl-2.mx-auto.mb-4 -->
+        // Links
+        
+      // Grid column
+      // Grid column
+      .col-md-3.col-lg-2.col-xl-2.mx-auto.mb-4
+        // Links
+        h6.text-uppercase.font-weight-bold Useful links
+        hr.deep-purple.accent-2.mb-4.mt-0.d-inline-block.mx-auto(style='width: 60px;')
+        p
+          a(href='/template') Templates
+        p
+          a(href='/resumeexample') Examples
+        p
+          a(href='#!') FAQ's
+        p
+          a(href='#!') Help
+      // Grid column
+      // Grid column
+      .col-md-4.col-lg-3.col-xl-3.mx-auto.mb-md-0.mb-4
+        // Links
+        h6.text-uppercase.font-weight-bold Contact
+        hr.deep-purple.accent-2.mb-4.mt-0.d-inline-block.mx-auto(style='width: 60px;')
+        p
+          i.fas.fa-home.mr-3
+          |  New York, NY 10012, US
+        p
+          i.fas.fa-envelope.mr-3
+          |  info@example.com
+        p
+          i.fas.fa-phone.mr-3
+          |  + 01 234 567 88
+        p
+          i.fas.fa-print.mr-3
+          |  + 01 234 567 89
+      // Grid column
+    // Grid row
+  // Footer Links
+  // Copyright
+  .footer-copyright.text-center.py-3
+    | &copy; 2018 Copyright:
+    a(href='http://www.artisansofttech.com/')  ArtisanSoftTech
+  // Copyright
+// Footer

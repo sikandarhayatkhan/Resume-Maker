@@ -1,0 +1,350 @@
+doctype html
+head
+  meta(charset='utf-8')
+  meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+  meta(http-equiv='x-ua-compatible', content='ie=edge')
+  title Resume Templates
+  // Font Awesome
+  link(rel='stylesheet', href='https://use.fontawesome.com/releases/v5.8.2/css/all.css')
+  // Bootstrap core CSS
+  // Font Awesome
+  link(rel='stylesheet', href='https://use.fontawesome.com/releases/v5.8.2/css/all.css')
+  // Bootstrap core CSS
+  link(href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css', rel='stylesheet')
+  // Material Design Bootstrap
+  link(href='https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.7/css/mdb.min.css', rel='stylesheet')
+  link(rel='stylesheet', href='https://use.fontawesome.com/releases/v5.8.2/css/all.css')
+  // Bootstrap core CSS
+  link(href='css/bootstrap.min.css', rel='stylesheet')
+  // Material Design Bootstrap
+  link(href='css/mdb.min.css', rel='stylesheet')
+  // Your custom styles (optional)
+  link(href='css/style.min.css', rel='stylesheet')
+  // JQuery
+  script(type='text/javascript', src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js')
+  // Bootstrap tooltips
+  script(type='text/javascript', src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js')
+  // Bootstrap core JavaScript
+  script(type='text/javascript', src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js')
+  // MDB core JavaScript
+  script(type='text/javascript', src='https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.7/js/mdb.min.js')
+  style(type='text/css').
+    html,
+    body,
+    header,
+    .view {
+    height: 100%;
+    }
+    @media (max-width: 740px) {
+    html,
+    body,
+    header,
+    .view {
+    height: 1000px;
+    }
+    }
+    @media (min-width: 800px) and (max-width: 850px) {
+    html,
+    body,
+    header,
+    .view {
+    height: 650px;
+    }
+    }
+    @media (min-width: 800px) and (max-width: 850px) {
+    .navbar:not(.top-nav-collapse) {
+    background: #1C2331 !important;
+    }
+    }
+    .map-container {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+    }
+    .map-container iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    }
+    html {
+    scroll-behavior: smooth;
+    }
+// Navbar
+nav.navbar.navbar-expand-lg.scrolling-navbar
+  .container
+    // Brand
+    a.navbar-brand(href='/')
+      strong resume.io
+    // Collapse
+    button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarSupportedContent', aria-controls='navbarSupportedContent', aria-expanded='false', aria-label='Toggle navigation')
+      span.navbar-toggler-icon
+    // Links
+    #navbarSupportedContent.collapse.navbar-collapse
+      // Left
+      ul.navbar-nav.mr-auto
+        li.nav-item.active
+          a.nav-link(href='/template')
+            | Templates
+            span.sr-only (current)
+        li.nav-item
+          a.nav-link(href='/resumeexample') Examples
+        li.nav-item
+          a.nav-link(href='#', target='_blank') Guides
+        li.nav-item
+          a.nav-link(href='#', target='_blank') Job Search
+        li.nav-item
+          a.nav-link(href='#', target='_blank') FAQ
+      // Right
+      ul.navbar-nav.nav-flex-icons
+        li.nav-item
+          a.nav-link.rounded(href='#', target='_blank') Login
+        li.nav-item
+          // <button class="btn btn-outline-white btn-md my-2 my-sm-0 ml-3" type="submit">Search</button>
+          a.nav-link.border.border-light.rounded(href='#', target='_blank') SignUp
+// Navbar
+hr.hr-light
+.card(style='width: fit-content; box-shadow: none;')
+  .card-body
+    // First row
+    .row.features-small.mb-10.mt-2.wow.fadeIn
+      // first column
+      .col-md-9.flex-center
+        // Card
+        section
+          .card(style='box-shadow: none;')
+            // Card content
+            .card-body
+              h2.my-4.h1(style='text-align:left; color:rgb(30, 134, 219); font-size: 30pt;')
+                b Job-winning resume templates
+              .row
+                .col-12
+                .col-12
+                  p.grey-text
+                    | Each template is expertly designed and follows the exact &ldquo;resume rules&rdquo; hiring managers look for. Stand out and get hired faster with field-tested resume templates.
+                  hr
+                  div
+                    button.btn.btn-indigo.rounded All
+                    button.btn.btn-indigo.rounded Professional
+                    button.btn.btn-indigo.rounded Modern
+                    button.btn.btn-indigo.rounded Creative 
+                    button.btn.btn-indigo.rounded Simple
+          // /.Card
+        // /first column
+      // /First row
+      .col-md-3.flex-center
+        // Card
+        .card
+// Main layout
+.card(style='width: fit-content ; height:auto; box-shadow: none;')
+  .card-body
+    // Grid row
+    .row.wow.fadeIn
+      // Grid column
+      .col-md-3.mb-3
+        section
+          // Card
+          .card
+            // Card content
+            .card-body
+              .col-12
+                .view.overlay.zoom
+                  a(href='#')
+                    img.img-fluid(src='images/Capture.jpg', alt='zoom')
+                  .mask.flex-center.waves-effect.waves-light
+                    p.white-text
+                      a(href='/temp4')
+                        button.btn.btn-indigo.rounded Select
+                hr.hr-light
+          // /.Card
+      // Grid column
+      // Grid column
+      .col-md-3.mb-3
+        // Card
+        .card
+          // Card content
+          .card-body
+            .col-12
+              .view.overlay.zoom
+                a(href='#')
+                  img.img-fluid(src='images/Capture1.jpg', alt='zoom')
+                .mask.flex-center.waves-effect.waves-light
+                  p.white-text
+                    a(href='/temp3')
+                      button.btn.btn-indigo.rounded Select
+              hr.hr-light
+        // /.Card
+      // Grid column
+      // Grid column
+      .col-md-3.mb-3
+        // Card
+        .card
+          // Card content
+          .card-body
+            .col-12
+              .view.overlay.zoom
+                a(href='#')
+                  img.img-fluid(src='images/Capture2.jpg', alt='zoom')
+                .mask.flex-center.waves-effect.waves-light
+                  p.white-text
+                    a(href='/temp2')
+                      button.btn.btn-indigo.rounded Select
+              hr.hr-light
+              // Grid column
+      .col-md-3.mb-3
+        // Card
+        .card
+          // Card content
+          .card-body
+            .col-12
+              .view.overlay.zoom
+                a(href='#')
+                  img.img-fluid(src='images/Capture3.jpg', alt='zoom')
+                .mask.flex-center.waves-effect.waves-light
+                  p.white-text
+                    a(href='/temp1')
+                      button.btn.btn-indigo.rounded Select
+              hr.hr-light
+        // /.Card
+// Grid column
+.card(style='width: fit-content;box-shadow: none; background-color: gainsboro;')
+  .card-body
+    // First row
+    .row.features-small.mb-10.mt-2.wow.fadeIn
+      .col-md-2.flex-center
+        // Card
+      // /first column
+      // first column
+      .col-md-8.flex-center
+        // Card
+        .card(style='box-shadow: none ;background-color: gainsboro;')
+          // Card content
+          .card-body
+            h2.my-4.h3(style='color:rgb(30, 134, 219); ;')
+              b Modern resume templates
+            .row
+              .col-12
+                p.grey-text
+                  | A modern job calls for a modern resume. Show employers that you&rsquo;re up to date and make a great first impression by selecting the right template. Are you applying for a technical/modern job? Check out our selection
+                  | of modern templates and start creating an effective resume right away.
+              .col-12
+                h2.my-4.h3(style='color:rgb(30, 134, 219); ;')
+                  b Professional resume templates
+                p.grey-text
+                  | When applying for a serious position or at a serious company, you&rsquo;ll leave the best impression with a classic, professional resume. These resumes are definitely not &lsquo;exaggerated&rsquo;, but elegantly highlight
+                  | your skills and experience with a touch of design and layout flair. If you&rsquo;re applying for a management position or an administrative position, for instance, on of our professional resume templates is the best
+                  | choice.
+              .col-12
+                h2.my-4.h3(style='color:rgb(30, 134, 219); ;')
+                  b Creative resume templates
+                p.grey-text
+                  | If you&rsquo;re looking for a job in a creative sector or field, it&rsquo;s best not to have a standard resume. Building a good, creative resume lets you give a good idea of who you are: your resume is a great opportunity
+                  | to show your creativity. Use our creative resume templates and stand out!
+              .col-12
+                h2.my-4.h3(style='color:rgb(30, 134, 219); ;')
+                  b Simple resume templates
+                p.grey-text
+                  | A basic or simple resume template is often best and it&rsquo;s the most common pick. A modest layout can be a major strength of a good resume and will definitely not be inappropriate. Especially when applying for traditional
+                  | professions such as teacher, doctor, or nurse, this type of resume is highly appreciated.
+        // /.Card
+      // /first column
+      .col-md-2.flex-center
+        // Card
+      // /first column
+    // /First row
+    // First row
+    .row.features-small.mb-10.mt-2.wow.fadeIn
+      .col-md-3.flex-center
+        // Card
+      // /first column
+      // first column
+      .col-md-6.flex-center
+        // Card
+      // /.Card
+// Footer
+footer.page-footer.font-small.unique-color-dark
+  div(style='background-color: #6351ce;')
+    .container
+      // Grid row
+      .row.py-4.d-flex.align-items-center
+        // Grid column
+        .col-md-6.col-lg-5.text-center.text-md-left.mb-4.mb-md-0
+          h6.mb-0 Get connected with us on social networks!
+        // Grid column
+        // Grid column
+        .col-md-6.col-lg-7.text-center.text-md-right
+          // Facebook
+          a.fb-ic
+            i.fab.fa-facebook-f.white-text.mr-4  
+          // Twitter
+          a.tw-ic
+            i.fab.fa-twitter.white-text.mr-4  
+          // Google +
+          a.gplus-ic
+            i.fab.fa-google-plus-g.white-text.mr-4  
+          // Linkedin
+          a.li-ic
+            i.fab.fa-linkedin-in.white-text.mr-4  
+          // Instagram
+          a.ins-ic
+            i.fab.fa-instagram.white-text  
+        // Grid column
+      // Grid row
+  // Footer Links
+  .container.text-center.text-md-left.mt-5
+    // Grid row
+    .row.mt-3
+      // Grid column
+      .col-md-3.col-lg-4.col-xl-3.mx-auto.mb-4
+        // Content
+        h6.text-uppercase.font-weight-bold Resume.io
+        hr.deep-purple.accent-2.mb-4.mt-0.d-inline-block.mx-auto(style='width: 60px;')
+        p
+          | Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+      // Grid column
+      // Grid column
+      // .col-md-2.col-lg-2.col-xl-2.mx-auto.mb-4
+      // Links
+      // Grid column
+      // Grid column
+      .col-md-3.col-lg-2.col-xl-2.mx-auto.mb-4
+        // Links
+        h6.text-uppercase.font-weight-bold Useful links
+        hr.deep-purple.accent-2.mb-4.mt-0.d-inline-block.mx-auto(style='width: 60px;')
+        p
+          a(href='/template') Templates
+        p
+          a(href='/resumeexample') Examples
+        p
+          a(href='#!') FAQ&apos;s
+        p
+          a(href='#!') Help
+      // Grid column
+      // Grid column
+      .col-md-4.col-lg-3.col-xl-3.mx-auto.mb-md-0.mb-4
+        // Links
+        h6.text-uppercase.font-weight-bold Contact
+        hr.deep-purple.accent-2.mb-4.mt-0.d-inline-block.mx-auto(style='width: 60px;')
+        p
+          i.fas.fa-home.mr-3
+          |  New York, NY 10012, US
+        p
+          i.fas.fa-envelope.mr-3
+          |  info@example.com
+        p
+          i.fas.fa-phone.mr-3
+          |  + 01 234 567 88
+        p
+          i.fas.fa-print.mr-3
+          |  + 01 234 567 89
+      // Grid column
+    // Grid row
+  // Footer Links
+  // Copyright
+  .footer-copyright.text-center.py-3
+    | &copy; 2018 Copyright:
+    a(href='http://www.artisansofttech.com/')  ArtisanSoftTech
+  // Copyright
+// Footer
