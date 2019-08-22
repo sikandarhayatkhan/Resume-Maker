@@ -1,0 +1,68 @@
+doctype html
+head
+  meta(charset='utf-8')
+  meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+  meta(http-equiv='x-ua-compatible', content='ie=edge')
+  title CV DATA
+  // Font Awesome
+  link(rel='stylesheet', href='https://use.fontawesome.com/releases/v5.8.2/css/all.css')
+  // Bootstrap core CSS
+  link(href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css', rel='stylesheet')
+  // Material Design Bootstrap
+  link(href='https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.7/css/mdb.min.css', rel='stylesheet')
+  // JQuery
+  script(type='text/javascript', src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js')
+  // Bootstrap tooltips
+  script(type='text/javascript', src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js')
+  // Bootstrap core JavaScript
+  script(type='text/javascript', src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js')
+  // MDB core JavaScript
+  script(type='text/javascript', src='https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.7/js/mdb.min.js')
+  style(type='text/css').
+    html,
+    body,
+    header,
+    .view {
+    height: 100%;
+    }
+    @media (max-width: 740px) {
+    html,
+    body,
+    header,
+    .view {
+    height: 1000px;
+    }
+    }
+    @media (min-width: 800px) and (max-width: 850px) {
+    html,
+    body,
+    header,
+    .view {
+    height: 650px;
+    }
+    }
+    @media (min-width: 800px) and (max-width: 850px) {
+    .navbar:not(.top-nav-collapse) {
+    background: #1c2331 !important;
+    }
+    }
+.row.mt-5
+  .col-md-6.m-auto
+    .card.card-body
+      h1.text-center.mb-3
+        i.fas.fa-sign-in-alt
+        |   Login
+      // Default form login
+      form.text-center.border.border-light.p-5(action='#!')
+        // Email
+        input#defaultLoginFormEmail.form-control.mb-4(type='email', placeholder='E-mail')
+        // Password
+        input#defaultLoginFormPassword.form-control.mb-4(type='password', placeholder='Password')
+        // Sign in button
+        button.btn.btn-info.btn-block.my-4(type='submit') Sign in
+        // Register
+        p
+          | Not a member?
+          a(href='') Register
+        // Social login
+// Default form login

@@ -37,6 +37,11 @@ router.get("/temp4", function(req, res, next) {
   res.render("temp4", { title: "Express" });
 });
 
+router.get("/loginpage", function(req, res) {
+  res.render("login", { title: "Express" });
+});
+
+
 router.post("/adduser", Controller.adduser);
 router.post("/login", Controller.login);
 
